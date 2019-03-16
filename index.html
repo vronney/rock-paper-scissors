@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock-Paper-Scissors JavaScript Demo</h1>
+
+        <p>
+            <div id="scores"><span id="yourScore">Your score: 0</span>
+                <span id="computerScore">Computer's score: 0</span></div>
+        </p>
+        <p>Choose rock, paper, or scissors, and see if you can beat the computer!</p>
+        <p class="buttons">
+            <button onclick="rockPaperScissors('Rock')">&#9994;</button>
+            <button onclick="rockPaperScissors('Paper')">&#9995;</button>
+            <button onclick="rockPaperScissors('Scissors')">&#9996;</button>
+        </p>
+        <p id="choices"></p>
+        <p id="winLoseOrTie"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
