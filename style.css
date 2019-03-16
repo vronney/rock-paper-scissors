@@ -18,6 +18,7 @@ h1 {
 
 button {
     font-size: 120px;
+    color: orange;
     cursor: pointer;
     width: 192px;
     height: 192px;
@@ -42,7 +43,7 @@ button {
     }
     
     .buttons {
-        display: inline-block;
+        display: block;
         text-align: center;
     }
 
