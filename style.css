@@ -46,6 +46,13 @@ button {
         text-align: center;
     }
 
+    button {
+        font-size: 75px;
+        width: 120px;
+        height: 120px;
+        color: orange;
+    }
+
     #scores {
         display: inline;
         text-align: center;
