@@ -16,4 +16,4 @@
 
 ## How to Load
 
-- [Click here to load]()
+- [Click here to load](https://vronney.github.io/rock-paper-scissors/)
